@@ -37,13 +37,13 @@ const initialFirstModelTarget = new THREE.Vector3(0, 0, 0);
 const initialSecondModelTarget = new THREE.Vector3(86, 0, 0);
 
 // Load Models
-loader.load('model/shrine/scene.gltf', (gltf) => {
+loader.load('../model/shrine/scene.gltf', (gltf) => {
     firstModel = gltf.scene;
     scaleAndCenterModel(firstModel, firstModelPosition);
     scene.add(firstModel);
 });
 
-loader.load('model/sky/scene.gltf', (gltf) => {
+loader.load('../model/sky/scene.gltf', (gltf) => {
     secondModel = gltf.scene;
     scaleAndCenterModel(secondModel, secondModelPosition);
     scene.add(secondModel);
@@ -65,7 +65,7 @@ function scaleAndCenterModel(model, position) {
 let portal;
 let currentPortalPosition = firstModelPosition.clone().add(new THREE.Vector3(1.3, -0.28, 1));
 
-loader.load('model/portal/scene.gltf', (gltf) => {
+loader.load('../model/portal/scene.gltf', (gltf) => {
     portal = gltf.scene;
     portal.scale.set(0.5, 0.5, 0.5);
     portal.rotation.y = Math.PI / 2;
