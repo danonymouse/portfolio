@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { gsap } from 'gsap'; // Ensure GSAP is installed in your project
+import { gsap } from 'gsap'; 
 
 // Create Scene and Renderer
 const scene = new THREE.Scene();
@@ -156,8 +156,6 @@ function switchToFirstModel() {
 // Initialize with Model One buttons visible
 showButtonsForFirstModel();
 
-
-
 function createPortalInteraction() {
     const raycaster = new THREE.Raycaster();
     const mouse = new THREE.Vector2();
@@ -182,7 +180,6 @@ function createPortalInteraction() {
 
     window.addEventListener('click', clickHandler);
 }
-
 
 createPortalInteraction();
 
@@ -289,8 +286,6 @@ function showInfoSection(sectionId) {
     }
 }
 
-
-
 // Animation Loop with Dynamic Rotation
 function animate() {
     requestAnimationFrame(animate);
@@ -314,8 +309,6 @@ function animate() {
     controls.update();
     renderer.render(scene, camera);
 }
-
-
 
 startRotation('first');
 animate();

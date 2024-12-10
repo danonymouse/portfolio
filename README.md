@@ -87,3 +87,4 @@ This portfolio uses 3D models from talented creators. Special thanks to:
 
 ## Footerrr
 Thank you for visiting! 🌟 Enjoy exploring my world.
+Do not use my code without permission. Must credit in this format: Inspired by David Lai.
