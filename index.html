@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Lai's World</title>
+  <script type="module" crossorigin src="/portfolio/assets/index-sYWyXzpn.js"></script>
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/index-B3DVY6lN.css">
+</head>
+<body>
+    <header>
+        <h1>hey, I'm david ^_^</h1>
+    </header>
+
+    <div id="container3D"></div>
+
+    
+
+    <div id="infoSections">
+        <div id="aboutMe" class="info-section" style="display: none;">
+            <button class="close-btn" onclick="closeInfoSection()">✖</button>
+            <img src="/portfolio/assets/aboutMe-BTSJ7hx4.jpg" alt="Picture of David" class="info-image">
+            <p>
+                Apart from being a passionate developer, I also specialize in 
+                quantum computing, artificial intelligence, and crypto.
+
+                My relentless pursuit of excellence fuels my passion for tackling complex challenges and crafting innovative answers. 
+                I'm in a constant state of project-driven inspiration.
+
+                Outside of work, you'll spot me exploring the culinary world, seeking delightful new flavors, 
+                or hitting the gym and bouldering to maintain a balanced lifestyle.
+
+                I've constructed this portfolio website 
+                to highlight some of my accomplishments. Enjoy and stay inspired!
+            </p>
+        </div>
+
+        <div id="work" class="info-section" style="display: none;">
+            <button class="close-btn" onclick="closeInfoSection()">✖</button>
+            <h2>Work Experience:</h2>
+            <p>
+                Project Manager at Crystal Intelligence | 09/2024 - Present.<br>
+                Full-Stack Software Engineer Intern at NTX | 05/2024 - 09/2024.<br>
+                AI Software Engineer Intern at VitallyAI | 05/2023 - 09/2023.<br>
+                Software Engineer Intern at OSENSE | 06/2022 - 09/2022.
+            </p>
+        </div>
+
+        
+        <div id="contact" class="info-section" style="display: none;">
+            <button class="close-btn" onclick="closeInfoSection()">✖</button>
+            <h2>Reach me via:</h2>
+            <div class="contact-links">
+                <a href="mailto:dl4318@nyu.edu">dl4318@nyu.edu</a>
+                <a href="https://www.linkedin.com/in/david-lai-b5869a220/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/danonymouse" target="_blank">GitHub</a>
+            </div>
+        </div>
+            <div id="reset" class="info-section" style="display: none;">
+            </div>
+
+            <div id="projects" class="info-section" style="display: none;">
+                <button class="close-btn" onclick="closeInfoSection()">✖</button>
+                <h2>my projects:</h2>
+            
+                <div class="project-content">
+                    <!-- Sidebar for project navigation -->
+                    <div class="project-sidebar">
+                        <button class="project-button" data-video="video1" data-description="description1">SafeNSober</button>
+                        <button class="project-button" data-video="video2" data-description="description2">Financely</button>
+                        <button class="project-button" data-video="video3" data-description="description3">SwiftGPT</button>
+                        <button class="project-button" data-video="video4" data-description="description4">DailyDuties</button>
+                    </div>
+            
+                    <!-- Video display area -->
+                    <div class="project-main">
+                        <div id="video1" class="video-container" style="display: block;">
+                            <iframe src="https://drive.google.com/file/d/1tL2gVRf2nbK9D4FbNrD3lvUaaxTAON9k/preview" width="640" height="480" allow="autoplay"></iframe>
+                        </div>
+            
+                        <div id="video2" class="video-container" style="display: none;">
+                            <iframe src="https://drive.google.com/file/d/1ZH2p10guQKzh-z-K0s1bxsX5uDHChyJs/preview" width="640" height="480" allow="autoplay"></iframe>                        
+                        </div>
+            
+                        <div id="video3" class="video-container" style="display: none;">
+                            <iframe src="https://drive.google.com/file/d/1lUPCVklzzbKzfi4OtIiYiSUgRP8YX9kr/preview" width="640" height="480" allow="autoplay"></iframe>                        
+                        </div>
+
+                        <div id="video4" class="video-container" style="display: none;">
+                            <iframe src="https://drive.google.com/file/d/1TJYjLbAvVieU1VBg9vBuYHpeFsTzlfJ4/preview" width="640" height="480" allow="autoplay"></iframe>                        </div>
+            
+                        <!-- Description display area -->
+                        <div id="description1" class="project-description" style="display: block;">
+                            <p>mobile app with React Native, AWS, and Google API to promote safe transportation</p>
+                        </div>
+            
+                        <div id="description2" class="project-description" style="display: none;">
+                            <p>an AI-powered finance trading manager with Express, TensorFlow, and MongoDB</p>
+                        </div>
+            
+                        <div id="description3" class="project-description" style="display: none;">
+                            <p>an intelligent chatbot using NLP with Go, Wit.AI, Wolfram, and Slack</p>
+                        </div>
+
+                        <div id="description4" class="project-description" style="display: none;">
+                            <p>user-centric mobile app for task management, featuring real-time updates and a user-friendly interface to efficiently, dynamically organize and track daily activities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div id="backHome" class="info-section" style="display: none;">
+            </div>
+        
+
+    </div>
+
+    <div id="buttonsModelOne">
+        <button class="glowing-button" data-section="aboutMe">about me</button>
+        <button class="glowing-button" data-section="work">work</button>
+        <button class="glowing-button" data-section="contact">contact</button>
+        <button class="glowing-button" data-section="reset">teleport to projects~</button>
+    </div>
+    
+    <div id="buttonsModelTwo" style="display: none;">
+        <button class="glowing-button" data-section="projects">projects info</button>
+        <button class="glowing-button" data-section="backHome">press me FIRST to return~</button>
+    </div>
+    
+    
+    
+    
+
+    <script>
+        // Function to close the currently visible info section
+        function closeInfoSection() {
+    document.getElementById('infoSections').style.display = 'none';
+    document.querySelectorAll('.info-section').forEach(section => {
+        section.style.display = 'none';
+    });
+    isPortalActive = true; // Re-enable the portal when any section is closed
+}
+
+
+
+    </script>
+    <footer>
+        <p>© 2025 David Lai. All rights reserved.</p>
+    </footer>
+</body>
+
+
+</html>
