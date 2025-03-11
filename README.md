@@ -2,6 +2,8 @@
 
 Welcome to **David Lai's Portfolio Website** – a digital showcase of innovation, creativity, and passion for Trading, Quantum Computing, AI/ML, and Crypto. This interactive and dynamic website highlights my professional experiences, projects, and skills in an engaging 3D environment.
 
+The link: [portfolio website]https://davidlai.dev/
+
 ## 📸 Overview
 
 This portfolio combines a modern design with interactive 3D elements to create an immersive experience. Visitors can explore different sections and teleport between models using interactive portals.
